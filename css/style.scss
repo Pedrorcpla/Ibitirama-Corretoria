@@ -26,7 +26,7 @@ $white: #ffffff;
     @include flex;
 
     h2 {
-        font-size: 1.8em;
+        font-size: 1.6em;
         color: $gray-font
     }
 }
@@ -73,11 +73,11 @@ body {
         padding: 1.5vh 3vw;
 
         h2 {
-            font-size: 2em;
+            font-size: 1.8em;
             color: $primary-color;
         }
         p {
-            font-size: 1.1em;
+            font-size: .9em;
             color: $blue-footer;
         }
     }
@@ -88,7 +88,7 @@ body {
 
         a {
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1em;
             color: $gray-font;
             transition: 0.3s ease;
 
@@ -98,12 +98,12 @@ body {
                 color: $secoundary-color;
             }
             .svg-inline--fa.fa-w-20 {
-                width: 1.25em;
+                width: 1.05em;
             }
             .svg-inline--fa {
                 display: inline-block;
                 font-size: inherit;
-                height: 1em;
+                height: .9em;
                 vertical-align: -0.125em;
             }
         }
@@ -140,14 +140,14 @@ body {
                 @include flex;
 
                 .date {
-                    font-size: 1.1em;
+                    font-size: .9em;
                     font-weight: bold;
                     background: $primary-color;
                     padding: 2% 4%;
                     border-radius: 25px
                 }
                 .region {
-                    font-size: 1.1em;
+                    font-size: .9em;
                     font-weight: bold;
                     color: $secoundary-color;
                     background: $blue-footer;
@@ -156,7 +156,7 @@ body {
                 }
             }
             .local {
-                font-size: 4em;
+                font-size: 3.8em;
                 font-weight: bold;
                 width: 100%;
                 height: 40%;
@@ -175,7 +175,7 @@ body {
                 @include flex($align: start);
 
                 p {
-                    font-size: 1.25em;
+                    font-size: 1.05em;
                     text-shadow: 5px 5px 5px black;
 
                     svg {
@@ -184,7 +184,7 @@ body {
                         color: $white;
                     }
                     .svg-inline--fa.fa-w-20 {
-                        width: 1.25em;
+                        width: 1.05em;
                     }
                     .svg-inline--fa {
                         display: inline-block;
@@ -206,7 +206,7 @@ body {
                 @include flex;
 
                 p {
-                    font-size: 1.1em;
+                    font-size: .9em;
                     font-weight: bold;
                     color: $white;
                     background: $primary-color;
@@ -220,7 +220,7 @@ body {
                 @include flex($direction: column, $align: start);
 
                 p {
-                    font-size: 2.5em;
+                    font-size: 2.3em;
                     font-weight: bold;
                     color: $white;
                     text-shadow: 5px 5px 5px black;
@@ -230,7 +230,7 @@ body {
                     background: $blue-footer;
                     color: $white;
                     border-radius: 100px;
-                    font-size: 1.7em;
+                    font-size: 1.5em;
                     font-weight: bold;
                     text-decoration: none;
                     margin-bottom: 3%;
@@ -258,11 +258,11 @@ body {
             @include flex;
 
             h2 {
-                font-size: 1.8em;
+                font-size: 1.6em;
                 color: $gray-font
             }
             span {
-                font-size: 1em;
+                font-size: .9em;
                 font-weight: bold;
                 height: 2vw;
                 width: 2vw;
@@ -278,7 +278,7 @@ body {
             flex-wrap: wrap;
 
             p {
-                font-size: 1.3em;
+                font-size: 1.1em;
                 color: $gray-font;
                 background: $white;
                 padding: 1% 2%;
@@ -291,7 +291,7 @@ body {
                     color: $primary-color;
                 }
                 .svg-inline--fa.fa-w-20 {
-                    width: 1.25em;
+                    width: 1.05em;
                 }
                 .svg-inline--fa {
                     display: inline-block;
@@ -333,7 +333,7 @@ body {
                 @include flex($direction: column, $justify: space-evenly, $align: flex-start);
 
                 p {
-                    font-size: 1.3em;
+                    font-size: 1.1em;
                     color: $gray-font;
                     overflow-y: hidden;
                     span {
@@ -352,7 +352,7 @@ body {
         }
         p {
             padding: 2% 0;
-            font-size: 1.3em;
+            font-size: 1.1em;
             color: $gray-font;
         }
     }
@@ -518,7 +518,7 @@ body {
         }
         .link-local {
             text-decoration: none;
-            font-size: 1.3em;
+            font-size: 1.1em;
             color: $gray-font;
 
             p {
@@ -532,7 +532,7 @@ body {
             @include banner($height: 22.5vw)
         }
         .alert {
-            font-size: 0.8em;
+            font-size: 0.6em;
             margin-bottom: 3%;
         }
     }
@@ -586,10 +586,10 @@ body {
             @include flex($direction: column, $justify: space-evenly);
 
             h2 {
-                font-size: 3.5em;
+                font-size: 3.3em;
             }
             p {
-                font-size: 1.5em;
+                font-size: 1.3em;
             }
             a {
                 text-decoration: none;
@@ -597,7 +597,7 @@ body {
                 border: 5px solid $gray;
                 border-radius: 25vw;
                 padding: 3% 15%;
-                font-size: 1.3em;
+                font-size: 1.1em;
                 font-weight: bold;
                 color: $primary-color;
                 transition: 0.3s ease;
@@ -634,11 +634,24 @@ body {
             grid-area: contact;
 
             h2{
-                font-size: 2.5em;
+                font-size: 2.3em;
                 margin-bottom: 2%;
+
+                svg {
+                    font-size: 18px;
+                    color: $primary-color;
+                }
+                .svg-inline--fa.fa-w-20 {
+                    width: 1em;
+                }
+                .svg-inline--fa {
+                    display: inline-block;
+                    font-size: inherit;
+                    height: .9em;
+                }
             }
             p {
-                font-size: 1.75em; 
+                font-size: 1.55em; 
             }
         }
         .medias {
@@ -646,7 +659,7 @@ body {
             @include flex($direction: column, $justify: flex-start, $align: flex-end);
             
             p {
-                font-size: 1.75em;
+                font-size: 1.55em;
                 font-weight: bold;
             }
             .icons {
@@ -672,7 +685,7 @@ body {
                     .svg-inline--fa {
                         display: inline-block;
                         font-size: inherit;
-                        height: 1.75em;
+                        height: 1.55em;
                     }
                 }
             }
@@ -683,7 +696,7 @@ body {
             border-top: 3px solid $primary-color;
             padding: 2% 0;
             text-align: center;
-            font-size: 1em;
+            font-size: .8em;
         }
     }
 }
