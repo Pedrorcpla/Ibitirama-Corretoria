@@ -201,7 +201,8 @@ body {
 }
 .banner .title .signin .buttonSignIn a {
   padding: 4% 15%;
-  background: #0f1352;
+  background: #67be00;
+  border: 3px solid #67be00;
   color: #ffffff;
   border-radius: 100px;
   font-size: 1.5em;
@@ -211,13 +212,14 @@ body {
   transition: 0.3s ease;
 }
 .banner .title .signin .buttonSignIn a:hover {
-  background: #2973cc;
-  color: #ffffff;
+  background: #ffffff;
+  border: 3px solid #67be00;
+  color: #67be00;
 }
 
 .about {
   background: #ffffff;
-  min-height: 475vh;
+  min-height: 450vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -768,18 +770,20 @@ body {
 .footer .area .contact {
   grid-area: contact;
 }
-.footer .area .contact h2 {
+.footer .area .contact a {
+  text-decoration: none;
   font-size: 2.3em;
+  color: #67be00;
   margin-bottom: 2%;
 }
-.footer .area .contact h2 svg {
+.footer .area .contact a svg {
   font-size: 18px;
   color: #67be00;
 }
-.footer .area .contact h2 .svg-inline--fa.fa-w-20 {
+.footer .area .contact a .svg-inline--fa.fa-w-20 {
   width: 1em;
 }
-.footer .area .contact h2 .svg-inline--fa {
+.footer .area .contact a .svg-inline--fa {
   display: inline-block;
   font-size: inherit;
   height: 0.9em;
