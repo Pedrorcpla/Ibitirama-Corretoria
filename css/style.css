@@ -87,7 +87,7 @@ iframe {
   background: linear-gradient(to left, #32b5ff, #2973cc);
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.3em;
+  font-size: 1.1em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -103,7 +103,7 @@ iframe {
 .corretor .svg-inline--fa {
   display: inline-block;
   font-size: inherit;
-  height: 1.3em;
+  height: 1em;
 }
 
 .bigimage {

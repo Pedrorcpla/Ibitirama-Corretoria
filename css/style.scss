@@ -133,7 +133,7 @@ iframe {
     background: linear-gradient(to left, $light-blue, $dark-blue);
     text-decoration: none;
     color: $white;
-    font-size: 1.3em;
+    font-size: 1.1em;
     @include flex($justify: space-evenly);
 
     svg {
@@ -146,7 +146,7 @@ iframe {
     .svg-inline--fa {
         display: inline-block;
         font-size: inherit;
-        height: 1.3em;
+        height: 1em;
     }
 }
 
