@@ -12,7 +12,7 @@ body {
 
 .header {
   position: fixed;
-  z-index: 10;
+  z-index: 11;
   top: 0;
   background: #ffffff;
   width: 100vw;
@@ -57,6 +57,76 @@ body {
 }
 .header .budget a:hover {
   color: #67be00;
+}
+
+.corretor {
+  z-index: 9;
+  position: fixed;
+  top: 84vh;
+  width: 50vw;
+  height: 7.5vh;
+  margin: 0 25vw;
+  border-radius: 100px;
+  border: 5px solid #32b5ff;
+  background: linear-gradient(to left, #32b5ff, #2973cc);
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.corretor svg {
+  font-size: 18px;
+  color: #ffffff;
+}
+.corretor .svg-inline--fa.fa-w-20 {
+  width: 1em;
+}
+.corretor .svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+}
+
+.bigimage {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 3vw 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.bigimage .areaimage {
+  width: 90%;
+  height: 35%;
+  background: #ffffff;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.bigimage .areaimage .closeButton {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #67be00;
+}
+.bigimage .areaimage .closeButton:hover {
+  color: #85ca33;
+  cursor: pointer;
 }
 
 .banner {
@@ -192,7 +262,8 @@ body {
 }
 .banner .title .signin .buttonSignIn a {
   padding: 3% 10%;
-  background: #0f1352;
+  background: #67be00;
+  border: 3px solid #67be00;
   color: #ffffff;
   border-radius: 100px;
   font-size: 1em;
@@ -202,8 +273,9 @@ body {
   transition: 0.3s ease;
 }
 .banner .title .signin .buttonSignIn a:hover {
-  background: #2973cc;
-  color: #ffffff;
+  background: #ffffff;
+  border: 3px solid #67be00;
+  color: #67be00;
 }
 
 .about {
@@ -765,24 +837,25 @@ body {
 .footer .area .contact {
   grid-area: contact;
 }
-.footer .area .contact h2 {
+.footer .area .contact a {
   font-size: 1.3em;
   font-weight: bold;
-  margin-bottom: 2%;
+  color: #67be00;
 }
-.footer .area .contact h2 svg {
+.footer .area .contact a svg {
   font-size: 18px;
   color: #67be00;
 }
-.footer .area .contact h2 .svg-inline--fa.fa-w-20 {
+.footer .area .contact a .svg-inline--fa.fa-w-20 {
   width: 1em;
 }
-.footer .area .contact h2 .svg-inline--fa {
+.footer .area .contact a .svg-inline--fa {
   display: inline-block;
   font-size: inherit;
-  height: 0.9em;
+  height: 0.75em;
 }
 .footer .area .contact p {
+  margin-top: 2vh;
   font-size: 1em;
 }
 .footer .area .medias {
@@ -797,7 +870,7 @@ body {
   font-weight: bold;
 }
 .footer .area .medias .icons {
-  width: 90%;
+  width: 40%;
   margin-top: 5%;
   display: flex;
   flex-direction: row;

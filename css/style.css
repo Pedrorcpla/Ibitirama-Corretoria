@@ -12,7 +12,7 @@ body {
 
 .header {
   position: fixed;
-  z-index: 10;
+  z-index: 11;
   top: 0;
   background: #ffffff;
   width: 100vw;
@@ -65,6 +65,76 @@ body {
 }
 .header .budget a:hover {
   color: #67be00;
+}
+
+.corretor {
+  position: fixed;
+  z-index: 3;
+  top: 90vh;
+  width: 20vw;
+  height: 7.5vh;
+  margin: 0 40vw;
+  border-radius: 100px;
+  border: 5px solid #32b5ff;
+  background: linear-gradient(to left, #32b5ff, #2973cc);
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.corretor svg {
+  font-size: 18px;
+  color: #ffffff;
+}
+.corretor .svg-inline--fa.fa-w-20 {
+  width: 1em;
+}
+.corretor .svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1.3em;
+}
+
+.bigimage {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 3vw 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.bigimage .areaimage {
+  width: 90%;
+  height: 80%;
+  background: #ffffff;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.bigimage .areaimage .closeButton {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #67be00;
+}
+.bigimage .areaimage .closeButton:hover {
+  color: #85ca33;
+  cursor: pointer;
 }
 
 .banner {
@@ -789,6 +859,7 @@ body {
   height: 0.9em;
 }
 .footer .area .contact p {
+  margin-top: 2vh;
   font-size: 1.55em;
 }
 .footer .area .medias {
@@ -803,7 +874,7 @@ body {
   font-weight: bold;
 }
 .footer .area .medias .icons {
-  width: 40%;
+  width: 20%;
   margin-top: 2%;
   display: flex;
   flex-direction: row;
