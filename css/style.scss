@@ -249,7 +249,7 @@ body {
 
 .about {
     background: $white;
-    min-height: 450vh;
+    min-height: 475vh;
     @include flex($direction: column, $justify: space-evenly);
 
     .facilities {

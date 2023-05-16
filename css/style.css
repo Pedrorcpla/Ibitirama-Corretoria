@@ -219,7 +219,7 @@ body {
 
 .about {
   background: #ffffff;
-  min-height: 450vh;
+  min-height: 475vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
