@@ -53,7 +53,7 @@ $white: #ffffff;
 }
 
 body {
-    background-color: $white;
+    background-color: $gray;
     font-family: Roboto;
     overflow: hidden;
 }
@@ -111,6 +111,14 @@ body {
             color: $primary-color;
         }
     }
+}
+
+iframe {
+    width: 50vw;
+    height: 80vh;
+    margin: 9vh 15vw 0 15vw;
+    padding: 5vh 10vw;
+    background-color: $white;
 }
 
 .corretor {

@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #dbdbdb;
   font-family: Roboto;
   overflow: hidden;
 }
@@ -65,6 +65,14 @@ body {
 }
 .header .budget a:hover {
   color: #67be00;
+}
+
+iframe {
+  width: 50vw;
+  height: 80vh;
+  margin: 9vh 15vw 0 15vw;
+  padding: 5vh 10vw;
+  background-color: #ffffff;
 }
 
 .corretor {

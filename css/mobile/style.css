@@ -59,6 +59,14 @@ body {
   color: #67be00;
 }
 
+iframe {
+  width: 90vw;
+  height: 80vh;
+  margin: 9vh 0 0 0;
+  padding: 5vh 5vw;
+  background-color: #ffffff;
+}
+
 .corretor {
   z-index: 9;
   position: fixed;
@@ -255,7 +263,7 @@ body {
   align-items: center;
 }
 .banner .title .signin .buttonSignIn p {
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-weight: bold;
   color: #4b4c50;
   text-shadow: none;

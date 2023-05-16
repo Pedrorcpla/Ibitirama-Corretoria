@@ -111,6 +111,14 @@ body {
     }
 }
 
+iframe {
+    width: 90vw;
+    height: 80vh;
+    margin: 9vh 0 0 0;
+    padding: 5vh 5vw;
+    background-color: $white;
+}
+
 .corretor {
     z-index: 9;
     position: fixed;
@@ -287,7 +295,7 @@ body {
                 @include flex($direction: column, $align: center, $justify: space-around);
                 
                 p {
-                    font-size: 1.5em;
+                    font-size: 1.1em;
                     font-weight: bold;
                     color: $gray-font;
                     text-shadow: none;
