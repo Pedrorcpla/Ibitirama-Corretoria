@@ -273,6 +273,7 @@ iframe {
 }
 .banner .title .signin .buttonSignIn p {
   font-size: 1.8em;
+  overflow: visible;
   font-weight: bold;
   color: #ffffff;
   text-shadow: 5px 5px 5px black;
